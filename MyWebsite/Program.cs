@@ -5,7 +5,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddWordPress(options =>
 {
     options.DbName = "MyDatabase";
-    options.DbPassword = "Joujou_2000";
+    options.DbPassword = "password123";
 });
 
 var app = builder.Build();
